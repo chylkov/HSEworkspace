@@ -1,9 +1,9 @@
 import math
 
 m = [[1, 3], [2, 7]]
-e_list = [10 ** (-2), 10 ** (-3), 10 ** (-4), 10 ** (-5), 10 ** (-6), 10 ** (-7)]
+#e_list = [10 ** (-2), 10 ** (-3), 10 ** (-4), 10 ** (-5), 10 ** (-6), 10 ** (-7)]
 a1, a2, b1, b2 = 0, 1, 3, 4
-epsilon = 10 ** (-7)
+epsilon = 10 ** (-9)
 
 
 def derivative_by_a1(a1, a2, b1, b2):
@@ -33,7 +33,7 @@ def check(a1, a2, b1, b2):
     print('{0}    {1}'.format(a2 * b1, a2 * b2))
 
 
-def grad(e,a1, a2, b1, b2):
+def grad(e, a1, a2, b1, b2):
     error = count_function_error(a1, a2, b1, b2)
     previous_error = error + 0.1
     step = 0
@@ -57,13 +57,11 @@ def grad(e,a1, a2, b1, b2):
     print(l)
     print('-' * 45)
 
-
-for e in e_list:
+e = 10 ** (-2)
+while e > 10 ** (-7):
     a1, a2, b1, b2 = 0, 1, 3, 4
     grad(e,a1, a2, b1, b2)
+    e /= 2
     l = count_function_error(a1, a2, b1, b2)
     print(l)
 
-print(a1, a2, b1, b2)
-l = count_function_error(a1, a2, b1, b2)
-print(l)
