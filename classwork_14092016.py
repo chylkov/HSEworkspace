@@ -17,23 +17,24 @@ print("Hello Jupyter Notebook!")
 # Когда модуль разности между двумя последовательными приближениями станет менее eps, 
 # надо остановиться и распечатать итог: чему равна площадь и за сколько шагов мы её вычислили.
 
-import math
-interval = (-1, 1)
-f = lambda x: -x ** 2 + 1
-eps = 0.000001
-step = 1
-current = 0
-previous = 0.1
-while math.fabs(current - previous) > eps:
-    step += 1
-    previous = current
+def task1():
+    import math
+    interval = (-1, 1)
+    f = lambda x: -x ** 2 + 1
+    eps = 0.000001
+    step = 1
     current = 0
-    piece = (interval[1] - interval[0]) / step
-    for i in range(step): 
-        current += math.fabs(f(interval[0] + i * piece / 2)) * piece
+    previous = 0.1
+    while math.fabs(current - previous) > eps:
+        step += 1
+        previous = current
+        current = 0
+        piece = (interval[1] - interval[0]) / step
+        for i in range(step):
+            current += math.fabs(f(interval[0] + i * piece / 2)) * piece
 
-print('Square is: ', current)
-print('Step is: ' , step)
+    print('Square is: ', current)
+    print('Step is: ' , step)
 
 
 # In[31]:
@@ -45,22 +46,23 @@ print('Step is: ' , step)
 # Просуммировав площади трапеций, как в предыдущей задаче, получим приближённую площадь под графиком.
 # -- || --
 
-interval = (-1, 1)
-f = lambda x: -x ** 2 + 1
-eps = 0.000001
-current = 0.1
-previous = 0
-step = 0
-while math.fabs(current - previous) > eps:
-    step += 1
-    previous = current
-    h = (interval[1] - interval[0]) / step
-    current = 0
-    for i in range(step):
-        current += h * (math.fabs(f(interval[0] + i * h)) + math.fabs(f(interval[0] + (i + 1) * h))) / 2 
+def task2():
+    interval = (-1, 1)
+    f = lambda x: -x ** 2 + 1
+    eps = 0.000001
+    current = 0.1
+    previous = 0
+    step = 0
+    while math.fabs(current - previous) > eps:
+        step += 1
+        previous = current
+        h = (interval[1] - interval[0]) / step
+        current = 0
+        for i in range(step):
+            current += h * (math.fabs(f(interval[0] + i * h)) + math.fabs(f(interval[0] + (i + 1) * h))) / 2
 
-print('Square is: ', current)
-print('Step is: ' , step)
+    print('Square is: ', current)
+    print('Step is: ' , step)
 
 
 # In[72]:
@@ -73,43 +75,44 @@ print('Step is: ' , step)
 # 2) Для разного количества точек и для разных точек строить многочлен и вычислять погрешность приближения -
 #    например как сумму квадратов разностей ожидаемых значений и приближенных
 # 3) Что наблюдаете и почему?
-import math
 
-interval = (1.0, 10.0)
-f = lambda x: math.log(x, 2)
-step = 10
-steps = [10, 50, 100, 200, 500]
-errors = []
-sq_error = 0
-point = 10.0
-for step in steps:
-    coord = []
-    values = []
-    lagrange_polinom = 0
-    piece = (interval[1] - interval[0]) / step
-    
-    # заполнение массива точек и значений
-    for i in range(step):
-        coord.append(interval[0] + i * piece)
-        values.append(f(interval[0] + i * piece))
 
-    # формирование многочлена Лагранжа
-    for i in range(step):
-        tmp = 1
-        for j in range(step):
-            if i != j:
-                tmp *= (point - coord[j]) / (coord[i] - coord[j])
-        lagrange_polinom += tmp * values[i]
-    
-    print('step:', step)
-    print('my answer:', lagrange_polinom)
-    print('right:',math.log(point, 2))
-    print('*'*9)
-    errors.append(lagrange_polinom - math.log(point, 2)) #подсчет ошибок
+def task3():
+    import math
+    interval = (1.0, 10.0)
+    f = lambda x: math.log(x, 2)
+    step = 10
+    steps = [10, 50, 100, 200, 500]
+    errors = []
+    sq_error = 0
+    point = 10.0
+    for step in steps:
+        coord = []
+        values = []
+        lagrange_polinom = 0
+        piece = (interval[1] - interval[0]) / step
 
-sq_error = sum(errors)
-for i in range(len(steps)):
-    print('Step = {0}, error = {1}'.format(steps[i], errors[i]))
+        # заполнение массива точек и значений
+        for i in range(step):
+            coord.append(interval[0] + i * piece)
+            values.append(f(interval[0] + i * piece))
+
+        # формирование многочлена Лагранжа
+        for i in range(step):
+            tmp = 1
+            for j in range(step):
+                if i != j:
+                    tmp *= (point - coord[j]) / (coord[i] - coord[j])
+            lagrange_polinom += tmp * values[i]
+
+        print('step:', step)
+        print('my answer:', lagrange_polinom)
+        print('right:',math.log(point, 2))
+        print('*'*9)
+        errors.append(lagrange_polinom - math.log(point, 2)) #подсчет ошибок
+
+    for i in range(len(steps)):
+        print('Step = {0}, error = {1}'.format(steps[i], errors[i]))
 
 
 # In[ ]:
@@ -121,9 +124,10 @@ for i in range(len(steps)):
 # 2 Найти решение методом Гаусса.
 # 3 Подставить решение и убедиться, что всё верно.
 
-n = 2
-m = [[1, 2], [3, 4]]
-b = [5, 11]
+def task4():
+    n = 2
+    m = [[1, 2], [3, 4]]
+    b = [5, 11]
 
 
 

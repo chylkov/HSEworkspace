@@ -60,7 +60,7 @@ def grad(e, a1, a2, b1, b2):
 e = 10 ** (-2)
 while e > 10 ** (-7):
     a1, a2, b1, b2 = 0, 1, 3, 4
-    grad(e,a1, a2, b1, b2)
+    grad(e, a1, a2, b1, b2)
     e /= 2
     l = count_function_error(a1, a2, b1, b2)
     print(l)
