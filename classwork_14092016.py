@@ -1,11 +1,3 @@
-
-# coding: utf-8
-
-# In[11]:
-
-print("Hello Jupyter Notebook!")
-
-
 # In[25]:
 
 # Самостоятельная работа по занятию: интегрирование методом трапеций
@@ -124,12 +116,91 @@ def task3():
 # 2 Найти решение методом Гаусса.
 # 3 Подставить решение и убедиться, что всё верно.
 
+def print_matrix(b):
+    for row_id in range(len(b)):
+        for column_id in range(len(b[0])):
+            print(b[row_id][column_id], end="\t")
+        print()
+    print(12*'*')
+
+
+def generate_matrix(N, M, number):
+    matrix = []
+    last = number
+    for i in range(N):
+        row = []
+        for j in range(M):
+            row.append(last)
+            if number != 0:
+                last += 1
+        matrix.append(row)
+    return matrix
+
+
+def generate_vector(n, number):
+    v = []
+    q = number
+    for i in range(n):
+        if number == 0:
+            v.append(0)
+        else:
+            q += 1
+            v.append(q)
+    return v
+
+
+def multiply(a, b):
+    if (len(a[0]) != len(b)):
+        print("Error: Не совпадают размерности")
+        return
+    r = generate_vector(len(a[0]), 0)
+    N = len(a[0])
+    for i in range(N):
+        s = 0
+        for k in range(N):
+            s += a[i][k] * b[k]
+        r[i] = s
+    return r
+
+
 def task4():
-    n = 2
-    m = [[1, 2], [3, 4]]
-    b = [5, 11]
+    import copy
+    n = 3
+    m = 3
+    matrix = generate_matrix(n, m, 9)
+    b = generate_vector(n, 1)
+    a = copy.deepcopy(matrix)
+    for i in range(n):
+        a[i].append(b[i])
+    x = generate_vector(n, 0)
+    n = len(a)
+    m = len(a[0])
+    for i in range(n):
+        tmp = a[i][i]
+        for j in range(i, m):
+            if tmp != 0.0:
+                a[i][j] /= tmp
+        for j in range(i+1, n):
+            tmp = a[j][i]
+            for k in range(m-1, i-1, -1):
+                a[j][k] -= tmp*a[i][k]
+    x[n-1] = a[n-1][m-1]
+    for i in range(n-2, -1, -1):
+        x[i] = a[i][n]
+        for j in range(i+1, n):
+            x[i] -= a[i][j]*x[j]
+    print_matrix(a)
+    print(b)
+    print(x)
+    check(matrix, x, b)
+
+def check(a, x, b):
+    answer = multiply(a, x)
+    print('answer', answer)
+    print('right', b)
 
 
+task4()
 
 # In[ ]:
 
