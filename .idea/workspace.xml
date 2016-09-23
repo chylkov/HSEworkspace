@@ -26,19 +26,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1474584422724" expanded="true" signature="166:537" placeholder="..." />
-                <marker date="1474584422724" expanded="true" signature="575:645" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upper_bound.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="upper_bound.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/upper_bound.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23232323">
+            <state vertical-scroll-proportion="0.0">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="equation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/equation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65656567">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -72,6 +79,7 @@
         <option value="$PROJECT_DIR$/pitchfork_test.py" />
         <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/brackets.py" />
         <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/upper_bound.py" />
+        <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/equation.py" />
       </list>
     </option>
   </component>
@@ -165,24 +173,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.upper_bound">
-    <configuration default="false" name="largest_square_divisor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms &amp; Structures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSEworkspace" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms &amp; Structures/largest_square_divisor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.equation">
     <configuration default="false" name="classwork_14092016" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,6 +238,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HSEworkspace" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/upper_bound.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="equation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSEworkspace" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/equation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -374,19 +382,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.largest_square_divisor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.classwork_14092016" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pitchfork_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.brackets" />
-      <item index="4" class="java.lang.String" itemvalue="Python.upper_bound" />
+      <item index="0" class="java.lang.String" itemvalue="Python.classwork_14092016" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pitchfork_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.brackets" />
+      <item index="3" class="java.lang.String" itemvalue="Python.upper_bound" />
+      <item index="4" class="java.lang.String" itemvalue="Python.equation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.upper_bound" />
-        <item index="1" class="java.lang.String" itemvalue="Python.brackets" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pitchfork_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.classwork_14092016" />
-        <item index="4" class="java.lang.String" itemvalue="Python.largest_square_divisor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.equation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.upper_bound" />
+        <item index="2" class="java.lang.String" itemvalue="Python.brackets" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pitchfork_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classwork_14092016" />
       </list>
     </recent_temporary>
   </component>
@@ -595,17 +603,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1474584422724" expanded="true" signature="166:537" placeholder="..." />
-            <marker date="1474584422724" expanded="true" signature="575:645" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/upper_bound.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23232323">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/equation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65656567">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
