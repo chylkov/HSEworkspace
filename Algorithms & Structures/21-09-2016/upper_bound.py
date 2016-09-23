@@ -23,39 +23,33 @@ def lower_bound(lst, x):
 
 
 def upper_bound(lst, x):
-    left, right = 0, len(lst) - 1
+    left, right = -1, len(lst)
     while left < right:
         middle = (left + right) // 2
-        #print('left', left, 'right', right, 'middle', middle)
         if x >= lst[middle]:
             left = middle + 1
         else:
             right = middle
-        if left == right:
+        if middle == -1:
+            return 0
+        elif left == right:
             return left
-    #print('end: ', 'left:', left, 'right', right, 'middle', middle)
     return middle
 
-# print(upper_bound([1, 2, 3, 4, 5, 6], 4)) #3
-# print(upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 3)) #6
 
 def test_upper_bound(lst, x):
   i = upper_bound(lst, x)
-  print('answer is ', i)
   assert (i == len(lst) or lst[i] > x) and (i == 0 or lst[i - 1] <= x)
 
+
 def small_tests():
-  #test_upper_bound([1, 2, 3, 4, 5, 6], 4)
-  #test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 3)
-  #test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 2)
-  #test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], -2)
-
-  # THERE!
-  #test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 6)
-  # AND THERE!
-  #test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 8)
-
-  #test_upper_bound([3, 7, 12, 22, 47], 17)
+  test_upper_bound([1, 2, 3, 4, 5, 6], 4)
+  test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 3)
+  test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 2)
+  test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], -2)
+  test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 6)
+  test_upper_bound([1, 2, 3, 3, 3, 3, 3, 4, 6], 8)
+  test_upper_bound([3, 7, 12, 22, 47], 17)
   test_upper_bound([-200, -34, -5, 0, 45], -12)
 
 def big_tests():
@@ -71,5 +65,5 @@ def big_tests():
   test_upper_bound(lst, 10 ** 6 - 5)
   test_upper_bound(lst, 0)
 
-small_tests()
-#big_tests()
+#small_tests()
+big_tests()
