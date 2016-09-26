@@ -51,12 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lesson4_main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lesson4_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson4_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61229944">
+            <state vertical-scroll-proportion="0.0">
               <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kinda_punto_switcher.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kinda_punto_switcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22727273">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <marker date="1474927954371" expanded="true" signature="0:253" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +103,7 @@
         <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/upper_bound.py" />
         <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/equation.py" />
         <option value="$PROJECT_DIR$/Lesson4_main.py" />
+        <option value="$PROJECT_DIR$/kinda_punto_switcher.py" />
       </list>
     </option>
   </component>
@@ -184,24 +197,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.Lesson4_main">
-    <configuration default="false" name="pitchfork_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSEworkspace" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pitchfork_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.kinda_punto_switcher">
     <configuration default="false" name="brackets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,6 +262,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HSEworkspace" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson4_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kinda_punto_switcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSEworkspace" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kinda_punto_switcher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -393,19 +406,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pitchfork_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.brackets" />
-      <item index="2" class="java.lang.String" itemvalue="Python.upper_bound" />
-      <item index="3" class="java.lang.String" itemvalue="Python.equation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Lesson4_main" />
+      <item index="0" class="java.lang.String" itemvalue="Python.brackets" />
+      <item index="1" class="java.lang.String" itemvalue="Python.upper_bound" />
+      <item index="2" class="java.lang.String" itemvalue="Python.equation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Lesson4_main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Lesson4_main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.equation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.upper_bound" />
-        <item index="3" class="java.lang.String" itemvalue="Python.brackets" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pitchfork_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Lesson4_main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.equation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.upper_bound" />
+        <item index="4" class="java.lang.String" itemvalue="Python.brackets" />
       </list>
     </recent_temporary>
   </component>
@@ -649,9 +662,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson4_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61229944">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kinda_punto_switcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <marker date="1474927954371" expanded="true" signature="0:253" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
