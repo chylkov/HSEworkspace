@@ -61,14 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kinda_punto_switcher.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kinda_punto_switcher.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kinda_punto_switcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22727273">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding>
                 <marker date="1474927954371" expanded="true" signature="0:253" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="merge_sort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/merge_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7058824">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +114,7 @@
         <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/equation.py" />
         <option value="$PROJECT_DIR$/Lesson4_main.py" />
         <option value="$PROJECT_DIR$/kinda_punto_switcher.py" />
+        <option value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/merge_sort.py" />
       </list>
     </option>
   </component>
@@ -168,24 +179,6 @@
               <option name="myItemId" value="Algorithms &amp; Structures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21-09-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HSEworkspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HSEworkspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms &amp; Structures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -197,24 +190,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.kinda_punto_switcher">
-    <configuration default="false" name="brackets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSEworkspace" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/brackets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.merge_sort">
     <configuration default="false" name="upper_bound" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,6 +255,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HSEworkspace" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kinda_punto_switcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSEworkspace" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/merge_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -406,19 +399,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.brackets" />
-      <item index="1" class="java.lang.String" itemvalue="Python.upper_bound" />
-      <item index="2" class="java.lang.String" itemvalue="Python.equation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Lesson4_main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
+      <item index="0" class="java.lang.String" itemvalue="Python.upper_bound" />
+      <item index="1" class="java.lang.String" itemvalue="Python.equation" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Lesson4_main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
+      <item index="4" class="java.lang.String" itemvalue="Python.merge_sort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Lesson4_main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.equation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.upper_bound" />
-        <item index="4" class="java.lang.String" itemvalue="Python.brackets" />
+        <item index="0" class="java.lang.String" itemvalue="Python.merge_sort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Lesson4_main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.equation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.upper_bound" />
       </list>
     </recent_temporary>
   </component>
@@ -437,14 +430,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1382" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35056543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35056543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -670,11 +663,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kinda_punto_switcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22727273">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
             <marker date="1474927954371" expanded="true" signature="0:253" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms &amp; Structures/21-09-2016/merge_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7058824">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
