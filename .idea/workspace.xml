@@ -24,8 +24,18 @@
       <file leaf-file-name="Lesson4_anvanced_sentence_task.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Programming/Lesson 4/Lesson4_anvanced_sentence_task.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66883117">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lesson4_advanced_frequency_task.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Programming/Lesson 4/Lesson4_advanced_frequency_task.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +77,8 @@
         <option value="$PROJECT_DIR$/Algorithms &amp; Structures/28-09-2016/grig.py" />
         <option value="$PROJECT_DIR$/kinda_punto_switcher.py" />
         <option value="$PROJECT_DIR$/Programming/Lesson 4/Lesson4_advanced.py" />
-        <option value="$PROJECT_DIR$/Programming/Lesson 4/Lesson4_anvanced_sentence_task.py" />
         <option value="$PROJECT_DIR$/svd.py" />
+        <option value="$PROJECT_DIR$/Programming/Lesson 4/Lesson4_anvanced_sentence_task.py" />
       </list>
     </option>
   </component>
@@ -180,7 +190,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.svd">
+  <component name="RunManager" selected="Python.Lesson4_anvanced_sentence_task">
     <configuration default="false" name="Lesson4_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,23 +225,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="grig" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms &amp; Structures/28-09-2016" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSEworkspace" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms &amp; Structures/28-09-2016/grig.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="svd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,6 +255,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HSEworkspace" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programming/Lesson 4/Lesson4_advanced.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lesson4_anvanced_sentence_task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programming/Lesson 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSEworkspace" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programming/Lesson 4/Lesson4_anvanced_sentence_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -391,17 +401,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Lesson4_main" />
       <item index="1" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
-      <item index="2" class="java.lang.String" itemvalue="Python.grig" />
-      <item index="3" class="java.lang.String" itemvalue="Python.svd" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Lesson4_advanced" />
+      <item index="2" class="java.lang.String" itemvalue="Python.svd" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Lesson4_advanced" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Lesson4_anvanced_sentence_task" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.svd" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Lesson4_advanced" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Lesson4_main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.grig" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Lesson4_anvanced_sentence_task" />
+        <item index="1" class="java.lang.String" itemvalue="Python.svd" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Lesson4_advanced" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kinda_punto_switcher" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Lesson4_main" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="728" extended-state="0" />
+    <frame x="-8" y="0" width="1382" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -431,7 +441,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29886913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5831987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -461,7 +471,7 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -613,10 +623,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programming/Lesson 4/Lesson4_anvanced_sentence_task.py">
+    <entry file="file://$PROJECT_DIR$/Programming/Lesson 4/Lesson4_advanced_frequency_task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming/Lesson 4/Lesson4_anvanced_sentence_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66883117">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
