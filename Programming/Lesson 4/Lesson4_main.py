@@ -127,4 +127,4 @@ f4()
 *Самостоятельная работа
 Проверить правильность скобочной последовательности
 """
-# already did in Algorithms&Structures/21-09-2016/brackets.py
+# already done in Algorithms&Structures/21-09-2016/brackets.py
